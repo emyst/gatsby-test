@@ -83,15 +83,13 @@ const links = [
   {
     text: "Conceptual Guides",
     url: "https://www.gatsbyjs.com/docs/conceptual/",
-    description:
-      "Big-picture explanations of higher-level Gatsby concepts. Most useful for building understanding of a particular topic.",
+    description: "Conceptual Guides",
     color: "#0D96F2",
   },
   {
     text: "Plugin Library",
     url: "https://www.gatsbyjs.com/plugins",
-    description:
-      "Add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
+    description: "description",
     color: "#000000",
   },
 ]
@@ -102,7 +100,7 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>Home Page</title>
       <h1 style={headingStyles}>
-        Congratulations
+        Congratulations, Lena!
         <br />
         <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
         <span role="img" aria-label="Party popper emojis">
